@@ -1,0 +1,375 @@
+@import "https://fonts.googleapis.com/css2?family=El+Messiri&display=swap";
+@font-face {
+  font-family: myFont;
+  src: url("../fonts/HelveticaNeueW23forSKY-Reg.ttf"); }
+html {
+  scroll-behavior: smooth; }
+
+body {
+  direction: rtl;
+  font-family: myFont; }
+
+.clear {
+  clear: both; }
+
+.navbar {
+  background-color: #f9f9f9 !important; }
+  .navbar .contact-link {
+    border: 1px solid #000;
+    border-radius: 50px;
+    width: 180px;
+    text-align: center;
+    background-color: transparent;
+    margin-right: 30px;
+    line-height: 35px; }
+    .navbar .contact-link a {
+      color: #000 !important;
+      text-decoration: none; }
+    .navbar .contact-link i {
+      margin-left: 15px; }
+
+.header .carousel-item {
+  background-size: cover;
+  height: 80vh;
+  position: relative; }
+  .header .carousel-item .carousel-caption {
+    color: #236bae;
+    max-width: 30%;
+    text-align: right;
+    height: 220px;
+    position: absolute;
+    top: 19%;
+    right: 5%; }
+    .header .carousel-item .carousel-caption p {
+      font-size: 40px; }
+.header .carousel-indicators li {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  border: 1px solid #236bae; }
+.header .carousel-indicators li.active {
+  background-color: #236bae !important; }
+
+.why-must {
+  text-align: right;
+  background-color: #f9f9f9; }
+  .why-must .why-content {
+    margin-top: 150px; }
+    .why-must .why-content h5 {
+      font-size: 27px;
+      max-width: 75%;
+      line-height: 35px; }
+      .why-must .why-content h5 span {
+        border: 1px solid #236bae;
+        color: #fff;
+        background-color: #236bae; }
+  .why-must .why-img {
+    overflow: hidden;
+    width: 122%; }
+    .why-must .why-img img {
+      width: 120%;
+      height: 700px; }
+
+.services {
+  margin-top: 100px; }
+  .services .serv-header {
+    margin-bottom: 70px; }
+    .services .serv-header h5 {
+      color: #236bae; }
+    .services .serv-header p {
+      max-width: 66%;
+      margin: auto; }
+  .services .card {
+    margin-top: 20px;
+    padding-top: 0px;
+    transition: box-shadow 0.5s ease-in-out;
+    height: 300px; }
+    .services .card img {
+      width: 25% !important;
+      margin: auto;
+      margin-bottom: 15px;
+      margin-top: 35px; }
+    .services .card h5 {
+      margin-bottom: 10px; }
+    .services .card h4 {
+      color: #236bae;
+      font-size: 72px;
+      margin-bottom: 0; }
+    .services .card p {
+      margin-top: -5px;
+      color: #236bae; }
+    .services .card:hover {
+      border-top: 3px solid #236bae;
+      box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important; }
+
+.bg-prev {
+  background-image: linear-gradient(to bottom, #e6f3f9, #fafdfe);
+  background-position: center;
+  padding-bottom: 40px !important; }
+
+.prevlidg {
+  margin-top: 100px;
+  padding-top: 100px;
+  background-image: linear-gradient(to bottom, rgba(230, 243, 249, 0.1), rgba(250, 253, 254, 0.1)), url("../images/Group--2270.png");
+  height: 95vh;
+  background-position: left;
+  background-size: 120%; }
+  .prevlidg .bg-img img {
+    width: 100%; }
+  .prevlidg .prev-card {
+    margin-top: 15px; }
+    .prevlidg .prev-card .content {
+      text-align: right;
+      margin-top: 20px;
+      margin-right: 10px;
+      float: left; }
+      .prevlidg .prev-card .content h6 {
+        font-size: 15px;
+        color: #666; }
+      .prevlidg .prev-card .content .h48 {
+        font-size: 22px; }
+    .prevlidg .prev-card .img-r {
+      margin-left: 10px; }
+    .prevlidg .prev-card .img-l {
+      margin-left: 15px; }
+  .prevlidg .prev-header .content2 {
+    width: 50%;
+    text-align: right;
+    float: left; }
+    .prevlidg .prev-header .content2 h5 {
+      font-size: 18px;
+      color: #666; }
+    .prevlidg .prev-header .content2 p {
+      font-size: 22px;
+      color: #66bbed; }
+
+.steps-clean {
+  background-color: #236bae;
+  padding-top: 100px;
+  padding-bottom: 90px;
+  text-align: center; }
+  .steps-clean .serv-header {
+    color: #fff; }
+    .steps-clean .serv-header h5,
+    .steps-clean .serv-header p {
+      margin: 0; }
+    .steps-clean .serv-header h5 {
+      font-size: 30px; }
+    .steps-clean .serv-header p {
+      margin-top: 20px;
+      margin-bottom: 50px; }
+  .steps-clean .card {
+    background-color: transparent;
+    position: relative;
+    border: 0; }
+    .steps-clean .card img {
+      width: 30%;
+      margin: auto;
+      margin-bottom: 10px; }
+    .steps-clean .card h6 {
+      border: 1px solid #236bae;
+      width: 70px;
+      height: 70px;
+      border-radius: 50%;
+      background-color: #fff;
+      margin: auto;
+      line-height: 70px;
+      color: #236bae;
+      text-align: center;
+      font-size: 25px;
+      font-weight: bold; }
+    .steps-clean .card p {
+      color: #fff;
+      width: 70%;
+      margin: auto;
+      margin-top: 15px; }
+    .steps-clean .card .line {
+      position: absolute;
+      top: -3%;
+      left: -43%;
+      width: 70%; }
+    .steps-clean .card .line-down {
+      top: 20% !important;
+      left: -40%; }
+
+.gallery {
+  margin-top: 100px; }
+  .gallery .gallery-header {
+    margin-bottom: 50px; }
+    .gallery .gallery-header h5 {
+      color: #236bae;
+      font-size: 30px; }
+  .gallery .card {
+    position: relative;
+    margin-top: 25px; }
+    .gallery .card .overlay {
+      position: absolute;
+      transition: all 0.3s ease-in-out;
+      width: 80%;
+      height: 80%;
+      background-color: #236bae;
+      opacity: 0;
+      left: 10%;
+      top: 10%; }
+      .gallery .card .overlay a {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: #fff;
+        font-size: 35px; }
+    .gallery .card:hover .overlay {
+      opacity: 0.8; }
+
+footer {
+  background-color: #1e2436;
+  padding-top: 60px;
+  margin-top: 100px; }
+  footer .logo {
+    color: #fff; }
+    footer .logo img {
+      margin-bottom: 15px; }
+  footer .contact {
+    color: #fff; }
+    footer .contact .f-contact {
+      margin-top: 30px; }
+    footer .contact div {
+      margin-top: 15px; }
+      footer .contact div span {
+        margin-left: 20px; }
+  footer .appointment {
+    color: #fff; }
+    footer .appointment .f-contact {
+      margin-top: 30px; }
+    footer .appointment div {
+      margin-top: 15px; }
+  footer .nav-down {
+    margin-top: 80px;
+    border: 1px solid #44759b;
+    padding: 20px;
+    border-radius: 40px;
+    position: relative; }
+    footer .nav-down li {
+      display: inline-block;
+      margin-left: 15px; }
+      footer .nav-down li a {
+        color: #fff !important;
+        text-decoration: none;
+        font-size: 15px;
+        text-align: left !important; }
+    footer .nav-down .bac-top-top {
+      position: absolute;
+      background-color: #236bae;
+      left: 0%;
+      top: 15%;
+      padding: 10px;
+      border-radius: 20px;
+      color: #fff; }
+
+@media (max-width: 1024px) {
+  .header .carousel-item {
+    height: 49vh;
+    position: relative;
+    background-repeat: no-repeat; }
+
+  .header .carousel-item .carousel-caption {
+    max-width: 50% !important; }
+
+  .why-must .why-img {
+    width: 110% !important; }
+
+  .prevlidg {
+    height: 40vh !important; }
+    .prevlidg .prev-header .content2 {
+      width: 100% !important;
+      text-align: right; }
+
+  .prevlidg .prev-card {
+    margin-top: 15px;
+    float: left; } }
+@media (max-width: 800px) {
+  .header .carousel-item {
+    height: 49vh;
+    position: relative;
+    background-repeat: no-repeat; }
+
+  .why-must .why-img img {
+    width: 120% !important;
+    height: 509px !important; }
+
+  .why-must .why-img {
+    width: 111% !important; }
+
+  .why-must .why-content h5 {
+    max-width: 100% !important; }
+
+  .serv-header p {
+    max-width: 100% !important; }
+
+  .prevlidg .prev-header .content2 {
+    width: 100% !important;
+    text-align: right; }
+
+  .prevlidg .prev-card {
+    margin-top: 15px;
+    float: right; }
+
+  .steps-clean {
+    margin-top: 200px; }
+    .steps-clean .serv-header p {
+      font-size: 14px;
+      margin-bottom: 66px; }
+    .steps-clean .card {
+      margin: 30px; }
+      .steps-clean .card .line-down {
+        display: none; }
+      .steps-clean .card .line {
+        left: -50%; }
+
+  footer .contact, footer .appointment {
+    margin-top: 50px; } }
+@media (max-width: 524px) {
+  .why-must .why-content h5 {
+    font-size: 16px;
+    width: 100% !important; }
+
+  .why-must .why-img {
+    width: 104% !important; }
+
+  .why-must .why-img img {
+    width: 118% !important;
+    height: 403px !important; }
+
+  .serv-header p {
+    max-width: 100% !important; }
+
+  .prevlidg {
+    background-repeat: no-repeat; }
+    .prevlidg .prev-header .content2 {
+      width: 100% !important;
+      text-align: right; }
+
+  .prevlidg .prev-card {
+    margin-top: 15px;
+    float: right; }
+
+  .steps-clean {
+    margin-top: 290px; }
+    .steps-clean .card {
+      margin-top: 50px; }
+      .steps-clean .card .line {
+        display: none; }
+
+  footer .nav-down li {
+    width: 57% !important; }
+  footer .nav-down .bac-top-top {
+    left: 0%;
+    top: 65%;
+    width: 38% !important;
+    text-align: center; }
+
+  .carousel-caption p {
+    font-size: 25px !important;
+    color: #fff; } }
+
+/*# sourceMappingURL=style.css.map */
