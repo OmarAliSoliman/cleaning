@@ -399,6 +399,13 @@ footer {
     position: relative;
     background-repeat: no-repeat;
   }
+  .header .carousel-item .carousel-caption {
+    max-width: 80% !important;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 5px;
+    box-shadow: 0 .125rem .25rem rgba(0,0,0,.075);
+    top: 4%;
+  }
   .why-must .why-img img {
     width: 120% !important;
     height: 509px !important;
@@ -498,10 +505,10 @@ footer {
     }
   }
   .carousel-caption{
+    height: 130px !important;
+    top: 20% !important;
     p{
       font-size: 25px !important;
-      color: #fff;
-      
     }
   }
 }
